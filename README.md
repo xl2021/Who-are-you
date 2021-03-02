@@ -60,7 +60,7 @@ Now consider the accuracy of this prediction based on test set. The table below 
  
  *denotes that the species has appeared in all frames for top-N. 
 
-From the table above we can find that even though the accuracy for a single image is less than 0.50 (approximately 0.40), the total reliability is very high given plenty of images belonging to the same species. 
+From the table above we can find that even though the accuracy for a single image is less than 0.50 (approximately 0.40), the total reliability is pretty high given plenty of images belonging to the same species. 
 
 In conclusion, the species that this model predicts is cat.
 
@@ -76,4 +76,4 @@ Obviously, this project still needs to improve. The following are some possible 
  2. Dataset  
      Since the frames in the published video are thermodynamic images, the dataset should consist of thermodynamic pictures as well. However, thermodynamic pictures are too rare to be found, so this project just finds some optical pictures and converts them to grayscale images to simulate thermodynamic images. As a result, the loss of accuracy is unavoidable. If there were a lot of thermodynamic images available, the prediction should be more accurate. 
  3. Model  
-     The architecture of model is pretty small and simple. I have tried some more big or complex model, but it does not work in terms of noticeably improving accuracy while the speed of training is much slower on my computer. But it is worthwhile to try other architectures, especially when both the quality and the quantity of dataset are improved.
+     The architecture of model is pretty small and simple. I have tried some more big or complex model, but it does not work in terms of noticeably improving accuracy while the speed of training becomes much slower on my computer. But it is worthwhile to try other architectures, especially when both the quality and the quantity of dataset are improved.
