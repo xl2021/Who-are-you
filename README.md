@@ -28,7 +28,7 @@ A LeNet-5-like neural network is used. A major difference is that the input shap
 The model is trained on a Celeron N2940 CPU for 50 epoches, the final accuracy on training, validation and testing set is 0.9676, 0.4023 and 0.3998, respectively, where dramatical overfitting appears here. 
 
 ## 5.Result
-For the purpose of accuracy, an algorithm is applied to find the exact position of the animal before cropping and fetching it into the model. The final prediction is:
+For the purpose of accuracy, an algorithm is designed to determine the exact position of the animal before cropping and fetching it into the model. The final prediction is:
 
  Top N | prediction* 
  ------| ------------ 
