@@ -68,12 +68,12 @@ You can find the prediction for every frame [here](https://github.com/xl2021/Who
 
 ## 6.Further talk
 Obviously, this project still needs to improve. The following are some possible directions.
- 1. Overfitting
+ 1. Overfitting  
      As what we have noticed, dramatical overfitting appears while training. To overcome the problem, some strategies may be useful:
      * Collecting more pictures and expand the dataset; 
      * Trying some tricks for reducing overfitting; 
      * Reducing the number of parameters in model. 
- 2. Dataset
+ 2. Dataset  
      Since the frames in the published video are thermodynamic images, the dataset should consist of thermodynamic pictures as well. However, thermodynamic pictures are too rare to be found, so this project just finds some optical pictures and converts them to grayscale images to simulate thermodynamic images. As a result, the loss of accuracy is unavoidable. If there were a lot of thermodynamic images available, the prediction should be more accurate. 
- 3. Model
+ 3. Model  
      The architecture of model is pretty small and simple. I have tried some more big or complex model, but it does not work in terms of noticeably improving accuracy while the speed of training is much slower on my computer. But it is worthwhile to try other architectures, especially when both the quality and the quantity of dataset are improved.
