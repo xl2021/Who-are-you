@@ -25,7 +25,7 @@ A LeNet-5-like neural network is used. A major difference is that the input shap
 ![Model](https://github.com/xl2021/Who-are-you/blob/main/model/model.png)
 
 ## 4.Training
-The model is trained on a Celeron N2940 CPU for 50 epoches, the final accuracy on training, validation and testing set is 0.9676, 0.4023 and 0.3998, respectively, where dramatical overfitting appears here. 
+The model is trained on a Celeron N2940 CPU for 50 epoches, the final accuracy on train, validation and test set is 0.9676, 0.4023 and 0.3998, respectively, where dramatical overfitting appears here. 
 
 ## 5.Result
 For the purpose of accuracy, an algorithm is designed to determine the exact position of the animal before cropping and fetching it into the model. The final prediction is:
@@ -58,7 +58,7 @@ Now consider the accuracy of this prediction based on test set. The table below 
  weasel | weasel | weasel | weasel | weasel | weasel | weasel | red_fox | red_fox | red_fox | weasel * | - 
  wolf | wolf | wolf | wolf | wolf | wolf | wolf | red_fox | wolf | manul | wolf | wolf * 
  
- *notes that the species has appears in all frames for top-N. 
+ *notes that the species has appeared in all frames for top-N. 
 
 From the table above we can find that even though the accuracy for a single image is less than 0.50 (approximately 0.40), the total reliability is very high given plenty of images belonging to the same species. Consequently, the species that this model predicts is cat.
 
