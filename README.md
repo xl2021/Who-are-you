@@ -60,7 +60,9 @@ Now consider the accuracy of this prediction based on test set. The table below 
  
  *denotes that the species has appeared in all frames for top-N. 
 
-From the table above we can find that even though the accuracy for a single image is less than 0.50 (approximately 0.40), the total reliability is very high given plenty of images belonging to the same species. Consequently, the species that this model predicts is cat.
+From the table above we can find that even though the accuracy for a single image is less than 0.50 (approximately 0.40), the total reliability is very high given plenty of images belonging to the same species. 
+
+In conclusion, the species that this model predicts is cat.
 
 You can find the prediction for every frame [here](https://github.com/xl2021/Who-are-you/blob/main/demo/demo.mp4).
 
