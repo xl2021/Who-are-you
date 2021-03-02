@@ -120,4 +120,4 @@ if __name__ == '__main__':
             prob=get_prob(img,org,model)
             img=draw_text(img,prob,cnt,all)
         videowriter.write(img)
-        cv2.imwrite('./demo/'+pic,img)
+        #cv2.imwrite('./demo/'+pic,img)
