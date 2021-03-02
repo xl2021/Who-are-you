@@ -21,7 +21,7 @@ Since there is no dataset available for this task, the project selects 11 possib
  wolf | 300 | 98 | 96 | 494 
 
 ## 3.Model
-A LeNet-5-like neural network is used. A major difference is that the input shape is modified to 68 * 68 * 1 because it is similar to the original size of animal appearing in the published video and the difference among the values of R, G and B channels is pretty small so that the frames are more similar to grayscale images rather than colorful pictures. As a result, the pictures in dataset are converted into grayscale images while preprocessing. The details of neural network are as following:
+A LeNet-5-like neural network is used. A major difference is that the input shape is modified to 68 * 68 * 1 because it is similar to the original size of animal appearing in the published video and the difference among the values of R, G and B channels is pretty small so that the frames are more similar to grayscale images rather than colorful pictures. As a result, the pictures in dataset are converted into grayscale images while preprocessing. The details of neural network are as following:  
 ![Model](https://github.com/xl2021/Who-are-you/blob/main/model/model.png)
 
 ## 4.Training
