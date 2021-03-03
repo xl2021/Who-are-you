@@ -6,7 +6,7 @@ As the returner of Chang'e-5 successfully landed on Siziwang Banner, the small a
 ## 2.Dataset
 Since there is no dataset available for this task, the project selects 11 possible species which are mentioned for the most times according to the guesses under [the question at Zhihu](https://www.zhihu.com/question/435202802). Next, a crawler is applied to search and download pictures describing these species from network. These pictures are manually cleaned to improve their quality and maintain the balance across different species. The species and their numbers are shown as following:
 
- animal | # of train set | # of validation set |　# of test set | # of all 
+ Species | # of train set | # of validation set |　# of test set | # of all 
  ------ | -------------- | ------------------- | -------------- | --------
  cat | 288 | 95 | 95 | 478 
  desert_fox | 312 | 102 | 100 | 514 
@@ -42,7 +42,7 @@ For the purpose of accuracy, an algorithm is designed to determine the exact pos
  
  *The prediction is the species that appears for the most times in the set consisting of top-N species in all of known frames.
 
-Now consider the accuracy of this prediction based on test set. The table below shows given images belonging to the same species, what will the model predicts for top-N: 
+Now consider the accuracy of this prediction based on test set. The table below shows given images belonging to the same species, what will the model predict for top-N: 
 
  Species | Top 1 | Top 2 | Top 3 | Top 4 | Top 5 | Top 6 | Top 7 | Top 8 | Top 9 | Top 10 | Top 11 
  ------- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ------ | ------ 
